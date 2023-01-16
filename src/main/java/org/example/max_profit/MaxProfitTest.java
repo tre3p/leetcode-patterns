@@ -9,11 +9,11 @@ public class MaxProfitTest {
 
     @Test
     void testMaxProfit1() {
-        Assertions.assertEquals(MaxProfit.maxProfit(maxProfit1), 5);
+        Assertions.assertEquals(5, MaxProfit.maxProfit(maxProfit1));
     }
 
     @Test
     void testMaxProfit2() {
-        Assertions.assertEquals(MaxProfit.maxProfit(maxProfit2), 0);
+        Assertions.assertEquals(0, MaxProfit.maxProfit(maxProfit2));
     }
 }
