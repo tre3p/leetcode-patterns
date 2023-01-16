@@ -1,5 +1,6 @@
 package org.example.single_number;
 
+// https://leetcode.com/problems/single-number/
 public class SingleNumber {
     /**
      * Solves via XOR operation.

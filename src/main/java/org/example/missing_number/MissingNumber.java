@@ -2,6 +2,7 @@ package org.example.missing_number;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/missing-number/
 public class MissingNumber {
     /**
      * Arithmetic progression rule.

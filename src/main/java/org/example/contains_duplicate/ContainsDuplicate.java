@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+// https://leetcode.com/problems/contains-duplicate/
 public class ContainsDuplicate {
     public static <T> boolean containsDuplicate(List<T> elems) {
         return new HashSet<>(elems).size() != elems.size();

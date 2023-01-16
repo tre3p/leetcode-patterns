@@ -11,6 +11,8 @@ import java.util.Comparator;
  * [[0, 30], [5, 10], [15, 20]] -> false
  * [[5, 8], [9, 15]] -> true
  */
+
+// https://leetcode.com/problems/meeting-rooms/
 public class MeetingRooms {
     static class Interval {
         int start;

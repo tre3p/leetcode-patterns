@@ -1,5 +1,6 @@
 package org.example.maximum_subarray;
 
+// https://leetcode.com/problems/maximum-subarray/
 public class MaximumSubarray {
     public static int maximumSubarray(int[] nums) {
         int currentSum = nums[0];

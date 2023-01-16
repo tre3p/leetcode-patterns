@@ -1,7 +1,6 @@
 package org.example.range_sum_query_immutable;
 
-import java.util.Arrays;
-
+// https://leetcode.com/problems/range-sum-query-immutable/
 public class RangeSumQueryImmutable {
     public static class NumArray {
         private final int[] nums;
