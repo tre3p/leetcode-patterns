@@ -13,18 +13,21 @@ public class MaxProfit {
      * And then our profit would be 6 - 1 = 5
      */
     public static int maxProfit(int[] nums) {
+        int historicalMinimalPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
-        int currentMinPrice = nums[0];
 
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int currentPrice = nums[i];
 
-            /**
-             * If price of the day minus historical minimum price is less then maximum profit,
-             * then max profit would be this number.
-             */
-            maxProfit = Math.max(maxProfit, currentPrice - currentMinPrice);
-            currentMinPrice = Math.min(currentPrice, currentMinPrice);
+            if (currentPrice < historicalMinimalPrice) {
+                historicalMinimalPrice = currentPrice;
+            }
+
+            int todaySellProfit = currentPrice - historicalMinimalPrice;
+
+            if (todaySellProfit > maxProfit) {
+                maxProfit = todaySellProfit;
+            }
         }
 
         return maxProfit;
