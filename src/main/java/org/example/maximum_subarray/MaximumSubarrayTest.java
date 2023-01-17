@@ -8,7 +8,7 @@ public class MaximumSubarrayTest {
 
     @Test
     void testMaximumSubarray1() {
-        assertEquals(12, MaximumSubarray.maximumSubarray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        assertEquals(6, MaximumSubarray.maximumSubarray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
     }
 
     @Test
@@ -18,6 +18,6 @@ public class MaximumSubarrayTest {
 
     @Test
     void testMaximumSubarray3() {
-        assertEquals(24, MaximumSubarray.maximumSubarray(new int[]{5,4,-1,7,8}));
+        assertEquals(23, MaximumSubarray.maximumSubarray(new int[]{5,4,-1,7,8}));
     }
 }
