@@ -14,7 +14,7 @@ public class SingleNumber {
      * @param nums - input array
      * @return - unique number from array
      */
-    public static int singleNumber(int[] nums) {
+    static int singleNumber(int[] nums) {
         int mask = 0;
 
         for (int i : nums) {

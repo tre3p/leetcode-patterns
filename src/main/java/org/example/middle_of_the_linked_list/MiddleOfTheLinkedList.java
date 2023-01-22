@@ -3,7 +3,7 @@ package org.example.middle_of_the_linked_list;
 import org.example.ListNode;
 
 public class MiddleOfTheLinkedList {
-    public static ListNode getMiddleOfTheLinkedList(ListNode head) {
+    static ListNode getMiddleOfTheLinkedList(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
 

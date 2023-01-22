@@ -5,7 +5,7 @@ import java.util.List;
 
 // https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 public class CyclicSort {
-    public static List<Integer> cyclicSort(int[] nums) {
+    static List<Integer> cyclicSort(int[] nums) {
         int i = 0;
         while (i < nums.length) {
             /**

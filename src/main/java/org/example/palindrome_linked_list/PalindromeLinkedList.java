@@ -4,7 +4,7 @@ package org.example.palindrome_linked_list;
 import org.example.ListNode;
 
 public class PalindromeLinkedList {
-    public static boolean isPalindrome(ListNode head) {
+    static boolean isPalindrome(ListNode head) {
         if (head == null) {
             return false;
         }

@@ -3,7 +3,7 @@ package org.example.reverse_linked_list;
 import org.example.ListNode;
 
 public class ReverseLinkedList {
-    public static ListNode reverseLinkedList(ListNode head) {
+    static ListNode reverseLinkedList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
 

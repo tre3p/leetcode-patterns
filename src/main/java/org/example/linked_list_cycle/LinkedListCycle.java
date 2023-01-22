@@ -4,7 +4,7 @@ import org.example.ListNode;
 
 public class LinkedListCycle {
 
-    public static boolean isCycle(ListNode head) {
+    static boolean isCycle(ListNode head) {
         if (head == null) {
             return false;
         }

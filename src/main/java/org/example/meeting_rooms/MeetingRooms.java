@@ -29,7 +29,7 @@ public class MeetingRooms {
         }
     }
 
-    public static boolean meetingRooms(Interval[] intervals) {
+    static boolean meetingRooms(Interval[] intervals) {
         /**
          * Sorts array of intervals by first digit.
          * For example, if incoming array would be: [[5, 10], [0, 30], [15, 20]], then

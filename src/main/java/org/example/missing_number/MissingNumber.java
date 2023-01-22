@@ -24,7 +24,7 @@ public class MissingNumber {
      * @param nums
      * @return
      */
-    public static int missingNumber(int[] nums) {
+    static int missingNumber(int[] nums) {
         int sum = Arrays.stream(nums).sum();
         return nums.length * (nums.length + 1) / 2 - sum;
     }

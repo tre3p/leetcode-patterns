@@ -2,7 +2,7 @@ package org.example.range_sum_query_immutable;
 
 // https://leetcode.com/problems/range-sum-query-immutable/
 public class RangeSumQueryImmutable {
-    public static class NumArray {
+    static class NumArray {
         private final int[] nums;
         private final int[] sums;
 

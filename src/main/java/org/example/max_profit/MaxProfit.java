@@ -12,7 +12,7 @@ public class MaxProfit {
      * we would get max profit from this deal.
      * And then our profit would be 6 - 1 = 5
      */
-    public static int maxProfit(int[] nums) {
+    static int maxProfit(int[] nums) {
         int historicalMinimalPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
 
