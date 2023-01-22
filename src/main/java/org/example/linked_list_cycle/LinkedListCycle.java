@@ -1,16 +1,8 @@
 package org.example.linked_list_cycle;
 
+import org.example.ListNode;
+
 public class LinkedListCycle {
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public static boolean isCycle(ListNode head) {
         if (head == null) {
