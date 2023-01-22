@@ -50,7 +50,7 @@ public class PalindromeLinkedList {
         return true;
     }
 
-    public static ListNode middleOfTheLinkedList(ListNode head) {
+    private static ListNode middleOfTheLinkedList(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
 
@@ -62,7 +62,7 @@ public class PalindromeLinkedList {
         return slow;
     }
 
-    public static ListNode reverseLinkedList(ListNode head) {
+    private static ListNode reverseLinkedList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
 
