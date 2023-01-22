@@ -1,9 +1,11 @@
 package org.example.middle_of_the_linked_list;
 
 import org.example.ListNode;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class MiddleOfTheLinkedListTest {
 
@@ -27,26 +29,26 @@ public class MiddleOfTheLinkedListTest {
     void shouldCorrectlyReturnMiddleOfTheListIfCountIsEven() {
         ListNode middle = MiddleOfTheLinkedList.getMiddleOfTheLinkedList(first);
 
-        Assertions.assertEquals(4, middle.val);
-        Assertions.assertEquals(5, middle.next.val);
-        Assertions.assertEquals(6, middle.next.next.val);
-        Assertions.assertNull(middle.next);
+        assertEquals(4, middle.val);
+        assertEquals(5, middle.next.val);
+        assertEquals(6, middle.next.next.val);
+        assertNull(middle.next);
     }
 
     @Test
     void shouldCorrectlyReturnMiddleOfTheListIfCountIsNotEven() {
         ListNode middle = MiddleOfTheLinkedList.getMiddleOfTheLinkedList(fourth);
 
-        Assertions.assertEquals(5, middle.val);
-        Assertions.assertEquals(6, middle.next.val);
-        Assertions.assertNull(middle.next);
+        assertEquals(5, middle.val);
+        assertEquals(6, middle.next.val);
+        assertNull(middle.next);
     }
 
     @Test
     void shouldCorrectlyReturnMiddleOfTheListIfCountIsOne() {
         ListNode middle = MiddleOfTheLinkedList.getMiddleOfTheLinkedList(sixth);
 
-        Assertions.assertEquals(6, middle.val);
-        Assertions.assertNull(middle.next);
+        assertEquals(6, middle.val);
+        assertNull(middle.next);
     }
 }
