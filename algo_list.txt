@@ -1,4 +1,4 @@
-https://leetcode.com/problems/contains-duplicate/
+1https://leetcode.com/problems/contains-duplicate/
 https://leetcode.com/problems/missing-number/
 https://leetcode.com/problems/maximum-subarray/
 https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
